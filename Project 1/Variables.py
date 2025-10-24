@@ -1,5 +1,5 @@
-variable_name = input('Enter your name:')
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+hobby = input("Enter your favorite hobby: ")
 
-print(variable_name)
-age = int(input("Enter your age:"))
-hobby = input ("Enter your Hobby:")
+print(f"\nHello! My name is {name}, I'm {age} years old and my favorite hobby is {hobby}")
